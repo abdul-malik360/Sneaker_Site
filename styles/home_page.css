@@ -14,12 +14,12 @@
   align-items: flex-start;
   width: 30vw;
   height: 30vh;
+  color: #464646;
 }
 
 .home-heading {
   display: flex;
   flex-direction: column;
-  color: #6b705c;
 }
 
 .heading-colour {
@@ -31,8 +31,8 @@
 
 .btn {
   text-decoration: none;
-  color: black;
-  border: solid;
+  color: #464646;
+  border: 2px solid;
   border-radius: 20px;
   padding: 10px 20px;
 }
