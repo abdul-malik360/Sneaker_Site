@@ -1,3 +1,36 @@
+<!-- 
+    SNEAKER STORE PROJECT
+
+    You are tasked to replicate the following site: https://megaone.acrothemes.com/index-product-hotspot.html
+
+    Most of the HTML structure has been set up for you, however you will have to go through the document to
+    fill in the missing HTML elements and classes. I have also included the background, and 2 images for you.
+
+    If you would like to edit settings of either Owl Carousel or FullPage.js, you will need to edit the settings
+    in the scripts.js file.
+
+    Owl Carousel Options:
+    https://owlcarousel2.github.io/OwlCarousel2/docs/api-options.html
+
+    FullPage.js Options:
+    https://github.com/alvarotrigo/fullPage.js#options
+
+    I have also linked and initialized Animate On Scroll (AOS). You will need to go through the documentation
+    to apply the correct attributes to get the desired outcome.
+
+    AOS Documentation:
+    https://michalsnik.github.io/aos/
+
+    You will also have to link in your own FontAwesome kits. I have marked the area for this script with a comment
+
+    FontAwesome Icons:
+    https://fontawesome.com/icons?d=gallery&p=2&m=free
+
+    THE DEADLINE FOR THE PROJECT IS FRIDAY 7 MAY
+
+    Goodluck and have fun!
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,7 +60,8 @@
     />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/home_page.css" />
   </head>
   <body>
     <div id="fullpage">
@@ -35,14 +69,16 @@
         <!-- Add classes where necessary and style the section appropriately -->
         <div id="homePage" class="content">
           <div class="home-details">
-            <h1 class="home-heading">Premium Air Max Sneakers</h1>
-            <p>
+            <h1 class="home-heading">
+              Premium <span class="heading-colour">Air Max Sneakers</span>
+            </h1>
+            <p class="text">
               Lorem ipsum is simply dummy text of the printing and typesetting.
               Lorem Ipsum has been the industry’s standard dummy.
             </p>
             <a href="#products" class="btn">View More</a>
           </div>
-          <img src="./sneaker1.png" alt="Sneaker" data-tilt />
+          <img src="./images/sneaker1.png" alt="Sneaker" data-tilt />
         </div>
       </div>
       <div class="section">
@@ -61,25 +97,25 @@
           <div id="product-slider" class="owl-carousel">
             <!-- Product Item -->
             <div class="product">
-              <img src="./sneaker1.png" alt="Sneaker" />
+              <img src="./images/sneaker1.png" alt="Sneaker" />
               <h3>White Chucks</h3>
               <button onclick="openModal()">View Detail</button>
             </div>
             <!-- Product Item -->
             <div class="product">
-              <img src="./sneaker1.png" alt="Sneaker" />
+              <img src="./images/sneaker1.png" alt="Sneaker" />
               <h3>White Chucks</h3>
               <button onclick="openModal()">View Detail</button>
             </div>
             <!-- Product Item -->
             <div class="product">
-              <img src="./sneaker1.png" alt="Sneaker" />
+              <img src="./images/sneaker1.png" alt="Sneaker" />
               <h3>White Chucks</h3>
               <button onclick="openModal()">View Detail</button>
             </div>
             <!-- Product Item -->
             <div class="product">
-              <img src="./sneaker1.png" alt="Sneaker" />
+              <img src="./images/sneaker1.png" alt="Sneaker" />
               <h3>White Chucks</h3>
               <button onclick="openModal()">View Detail</button>
             </div>
