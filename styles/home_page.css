@@ -10,11 +10,13 @@
 .home-details {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: flex-start;
   width: 30vw;
   height: 30vh;
   color: #464646;
+  font-size: x-large;
+  
 }
 
 .home-heading {
@@ -35,4 +37,24 @@
   border: 2px solid;
   border-radius: 20px;
   padding: 10px 20px;
+}
+
+.icons{
+  display: flex;
+  
+  justify-content: space-evenly;
+  align-items: flex-end;
+  
+  padding: 10px 20px;
+  width: 15vw;
+}
+
+.copyright{
+  display: flex;
+  
+  justify-content: center;
+  align-items: flex-end;
+  
+  padding: 10px 20px;
+  width: 15vw;
 }

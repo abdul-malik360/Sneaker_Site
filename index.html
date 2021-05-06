@@ -58,25 +58,36 @@
       integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
       crossorigin="anonymous"
     />
-
+    <script
+      src="https://kit.fontawesome.com/ab6051d3ab.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- My CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/home_page.css" />
+    <link rel="stylesheet" href="./styles/testimonial.css">
   </head>
   <body>
+    <div class="icons">
+       <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i>
+       <i class="fab fa-linkedin-in"></i> <i class="fab fa-instagram"></i>
+    </div>
+    <p class="copyright"><i class="far fa-copyright"></i> MegaOne 2020.</p>
+    
     <div id="fullpage">
       <div class="section">
         <!-- Add classes where necessary and style the section appropriately -->
         <div id="homePage" class="content">
           <div class="home-details">
-            <h1 class="home-heading">
+            <h1 class="home-heading" data-aos="zoom-in">
               Premium <span class="heading-colour">Air Max Sneakers</span>
             </h1>
-            <p class="text">
+            <p class="text" data-aos="zoom-in">
               Lorem ipsum is simply dummy text of the printing and typesetting.
               Lorem Ipsum has been the industry’s standard dummy.
             </p>
-            <a href="#products" class="btn">View More</a>
+            <a href="#products" class="btn" data-aos="zoom-in">View More</a>
           </div>
           <img src="./images/sneaker1.png" alt="Sneaker" data-tilt />
         </div>
@@ -224,6 +235,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
 
     <!-- My Javascript File -->
+    
     <script src="./scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

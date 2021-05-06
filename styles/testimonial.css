@@ -1,0 +1,35 @@
+#testimonialPage {
+    background-image: url(../images/banner.jpg);
+
+  }
+.page-header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-heading{
+    color: #464646;
+}
+
+.page-subtitle{
+    color: #ed2d34;
+}
+
+.owl-stage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+   
+}
+
+.testimonial-img{
+
+    
+    margin: 0px 90px;
+    height: ;
+    width: ;
+    border-radius: 50%
+}
