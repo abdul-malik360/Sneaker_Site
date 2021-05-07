@@ -1,0 +1,16 @@
+#productPage {
+    background-image: url(../images/banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* width: -moz-fit-content; */
+  }
+  
+ 
