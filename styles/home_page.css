@@ -1,37 +1,25 @@
 #homePage {
-  background-image: url(../images/banner.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .home-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-
-
   width: 30vw;
   height: 30vh;
   color: #464646;
   font-size: 19px;
-
-  justify-self: center;
-  margin: 50px;
-  width: 50%;
   padding: 15px 15px;
-  
 }
 
 .home-heading {
   display: flex;
   flex-direction: column;
-  font-size: 50px;
+  justify-content: center;
+  font-size: 62px;
 }
 
 .heading-colour {
@@ -39,13 +27,26 @@
 }
 
 .text {
+  color: #464646;
+  margin-top: 2%;
+  font-size: 20px;
 }
 
 .btn {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   color: #464646;
   border: 2px solid;
-  border-radius: 20px;
+  border-radius: 50px;
   padding: 10px 20px;
+  margin-top: 4%;
+  width: 10vw;
 }
 
+.btn:hover {
+  background-color: #ed2d34;
+  color: aliceblue;
+  border-color: #ed2d34;
+  transition: 0.6s;
+}
