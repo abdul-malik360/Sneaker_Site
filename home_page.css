@@ -1,0 +1,44 @@
+#homePage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+
+  width: 30vw;
+  height: 30vh;
+  color: #464646;
+  font-size: 19px;
+
+  justify-self: center;
+  margin: 50px;
+  width: 50%;
+  padding: 15px 15px;
+}
+
+.home-heading {
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+}
+
+.heading-colour {
+  color: #ed2d34;
+}
+
+.text {
+}
+
+.btn {
+  text-decoration: none;
+  color: #464646;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
